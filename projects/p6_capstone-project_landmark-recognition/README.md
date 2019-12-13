@@ -1,4 +1,4 @@
-![Logo of the project](./docs/img/udacity_logo.svg)
+![Udacity Logo](./docs/img/udacity_logo.svg)
 
 # Udacity Machine Learning Engineer Nanodegree Capstone Project
 ## Landmark Recognition
@@ -21,11 +21,42 @@ In this project, I provide a solution to the Landmark Recognition Problem. Given
 
 # Directory Structure :
 
-- [src/](./src/) : Contains the project source code. Jupyter notebooks, Python scripts, and exported HTML files of the project Jupyter notebooks.
-- [docs/](./docs/) : Contains the project [report](./docs/report.pdf) and [proposal](./docs/proposal.pdf)
+  
+- [src/](./src/) : Contains the project source code. Jupyter notebooks, Python scripts, and exported HTML files of the project Jupyter notebooks.  
+- [docs/](./docs/) : Contains the project [report](./docs/report.pdf) and [proposal](./docs/proposal.pdf).  
+   
+   
+**Full project directory structure :**
+```
+.
+├── README.md                                            - Project readme file.
+├── src/
+│   ├── data_exploration_and_preprocessing.ipynb         - Code for dataset download and preprocessing.
+│   ├── image_downloader.py                              - Python helper script to download images.
+│   └── Udacity_MLND_capstone_landmark-recognition.ipynb - Project implementation.
+├── docs/                     - Project documentation directory.
+│   ├── proposal.pdf          - Project proposal.
+│   ├── report.pdf            - Project report.
+│   ├── figures/              - Project output plots and graphs.
+│   ├── stats/                - Project output statistics, metrics, and dataset summary.
+│   └── img/                  - Project logos. 
+├── data/                     - Project dataset.
+│   ├── index_train.csv       
+│   ├── index_validation.csv
+│   ├── index_test.csv
+│   ├── test/
+│   ├── train/
+│   ├── validation/
+│   └── input_csv/            - CSV from Google Landmarks dataset.
+│       ├── train.csv
+│       └── train_label_to_category.csv
+│
+└── models/     - Project saved training best weights, training history and bottleneck features
+```
+
+
 
 
 # Data Preparation and Structure
 
-The prepared data for this project can be downloaded from this [Google Drive Link](https://drive.google.com/open?id=1k9zJ23fMfEBk1XzAsRYAJQjK9cpYSQTr).  
-This is a subset that was extracted from from Common Visual Data Foundation [Google Landmarks Dataset v2](https://github.com/cvdfoundation/google-landmark).
+The prepared data for this project can be downloaded from this [Google Drive link](https://drive.google.com/open?id=1k9zJ23fMfEBk1XzAsRYAJQjK9cpYSQTr). Download the dataset file `data.tar.gz` and extract it to the project root directory. This is a subset dataset that was extracted from from Common Visual Data Foundation [Google Landmarks Dataset v2](https://github.com/cvdfoundation/google-landmark). 
