@@ -1,4 +1,4 @@
-![Udacity Logo](./projects/p6_capstone-project_landmark-recognition/docs/img/udacity_logo.svg)
+![Udacity Logo](udacity-logo.svg)
 
 # Udacity Machine Learning Engineer Nanodegree
 ## Nanodegree Projects
@@ -9,7 +9,7 @@
 
 # About
 
-This repository contains solutions to projects published on [Udacity Machine Learning GitHub Repository](https://github.com/udacity/machine-learning) and a capstone project submitted in fulfillment of the requirements for [**Machine Learning Engineer Nanodegree**](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t) 
+This repository contains solutions to projects published on [Udacity Machine Learning GitHub Repository](https://github.com/udacity/machine-learning) submitted in fulfillment of the requirements for [**Machine Learning Engineer Nanodegree**](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t) 
 
 
 # Udacity Nanodegree Program Graduate Certificate
@@ -26,4 +26,3 @@ This repository contains solutions to projects published on [Udacity Machine Lea
 3. [Dog Breed Classifier](projects/p3_dog-project)
 4. [Creating Customer Segments](projects/p4_customer_segments)
 5. [Teach a Quadcopter How to Fly](projects/p5_RL_quadcopter-project)
-6. [Capstone Project - Landmark Recognition](projects/p6_capstone-project_landmark-recognition)
